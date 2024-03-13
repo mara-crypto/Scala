@@ -1,0 +1,117 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(~run, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0msbt server started at local:///home/dioptrtit/.sbt/1.0/server/5317da15ccfa835e360e/sock[0m
+[0m[[0m[0mdebug[0m] [0m[0mWriting bsp connection file[0m
+[0m[[0m[0minfo[0m] [0m[0mstarted sbt server[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/dioptrtit/Bureau/Projets realiser/Scala/untitled/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:1:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval age = 19[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:2:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mif (age >= 18) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:10:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval numeros: Array[Int] = Array(1, 2, 3)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:11:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mfor ( numero <- numeros) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:15:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval numeros = Array(1, 2, 3, 4, 5)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:16:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mfor (numero <- numeros if numero % 2 == 0) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:20:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mfor (i <- 1 to 5) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:24:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval fruits = Array("pomme", "banane", "orange")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:25:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mfor ((fruit, index) <- fruits.zipWithIndex) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:29:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval numeros = Array(1, 2, 3, 4, 5)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:30:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval carres = for (numero <- numeros) yield numero * numero[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:34:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mvar compteur = 0[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:35:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mwhile (compteur < 5) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:41:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mvar essai = 0[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:42:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdo {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:49:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef addition(x: Int, y: Int): Int = x + y[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:51:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef afficheMonNom(nom: String): String = {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:55:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval somme = addition(3, 4) // Résultat : 7[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:56:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval message = afficheMonNom("Aissatou") // Résultat : "Je m'appelle Aissatou"[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:61:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval maListe = List("A", "B", "C", "D")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:64:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval premierElement = maListe(0)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:67:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval deuxiemeElement = maListe(1)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:71:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval monTableau = Array(10, 20, 30, 40)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:74:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval premierElement = monTableau(0)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:77:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval dernierElement = monTableau(monTableau.length - 1)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:82:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval ages: Map[String, Int] = Map("Alice" -> 30, "Bob" -> 25)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:85:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval ageAlice = ages("Alice")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:90:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval nombres: Set[Int] = Set(1, 2, 1, 3) // Contient uniquement 1, 2, 3[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:93:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval contientDeux = nombres(2) // renverra true[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:98:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval personne: (String, Int, String) = ("Alice", 30, "Paris")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:101:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval nom = personne._1[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:113:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval personne1 = new Personne("Alice", 30)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/test.scala:114:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mpersonne1.afficheInfos()[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m33 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 29 oct. 2023, 12:52:59[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m

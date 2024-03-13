@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(0cac11ca-219d-47d1-be52-aee8aae9443b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/dioptrtit/Bureau/Projets realiser/Scala/untitled/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/exemple/cv.scala:3:7: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m@main def run() =[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/exemple/cv.scala:5:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  println(s"The oldest person is ${ages.max}")[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/exemple/main.scala:4:7: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m@main def run() =[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/dioptrtit/Bureau/Projets realiser/Scala/untitled/src/main/scala/exemple/main.scala:6:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprintln(s"The oldest person is ${ages.max}")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 18 oct. 2023, 23:48:04[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m
