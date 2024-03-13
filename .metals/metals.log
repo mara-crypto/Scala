@@ -1300,3 +1300,15 @@ mars 13, 2024 8:35:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 45
 mars 13, 2024 8:35:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 47
+mars 13, 2024 8:35:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.03.13 20:35:15 ERROR Timeout waiting for 'build/initialize' response
+2024.03.13 20:35:15 WARN  Retrying connection to the build server scala-cli
+2024.03.13 20:35:15 INFO  Running BSP server List(/home/dioptrtit/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/dioptrtit/Bureau/Projets realiser/Scala/.scala-build/ide-options-v2.json, /home/dioptrtit/Bureau/Projets realiser/Scala)
+2024.03.13 20:35:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/dioptrtit/Bureau/Projets realiser/Scala/.metals/bsp.trace.json or /home/dioptrtit/.cache/metals/bsp.trace.json
+2024.03.13 20:35:16 INFO  BSP server: [E] Caught bloop.data.Project$ProjectReadException: Failed to load project from /home/dioptrtit/Bureau/Projets realiser/Scala/.scala-build/.bloop/Scala_bd2c96d2de-test.json
+2024.03.13 20:35:16 INFO  BSP server: Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+2024.03.13 20:35:16 INFO  BSP server: Running the clean sub-command to clear the working directory and remove caches might help.
+2024.03.13 20:35:16 INFO  BSP server: If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing -v -v -v.
+2024.03.13 20:35:16 INFO  BSP server: Error: java.lang.RuntimeException: Bloop BSP connection in /home/dioptrtit/.cache/scalacli/bsp-sockets/proc-56110 was unexpectedly closed or bloop didn't start.
+2024.03.13 20:35:16 INFO  BSP server: For more details, please see '/home/dioptrtit/Bureau/Projets realiser/Scala/.scala-build/stacktraces/1710362116-6723108639191117910.log'
